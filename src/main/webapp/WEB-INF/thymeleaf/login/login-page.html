@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Loading Message Properties</title>
+</head>
+<body>
+	<div id="fullpage">
+		<div class="header">
+			<div th:substituteBy="login/login-header" th:remove="tag"></div>
+		</div>
+		<div class="container">
+			<div class="load-pro">
+
+				<span class="star-head">Loading message from property file :</span>
+
+				<div class="thyme-data">
+					<span class="thy-id1">1. By Using ThymeLeaf tag</span><br /> <span
+						class="thy-id2" th:text="#{name}">No property find</span>
+				</div>
+
+				<div class="star-data">
+					<span class="thy-id1">2. By Using Java added in model
+						attribute</span><br/> <span class="thy-id2" th:text="${propertyData}"></span>
+				</div>
+
+			</div>
+		</div>
+
+		<div id="star-footer">
+			<div class="col-lg-12 col-sm-12 col-xs-12 copyrights">
+				<div th:substituteBy="login/login-footer" th:remove="tag"></div>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>

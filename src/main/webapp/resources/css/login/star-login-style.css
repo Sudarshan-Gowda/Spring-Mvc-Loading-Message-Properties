@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* @Author Sudarshan */
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #D7E1E8;
+	background: url(../../images/pattern.png);
+	font-size: 12px;
+	margin-right: 0px !important;
+}
+
+.header {
+	width: 100%;
+	height: auto;
+	background-color: #ddd;
+}
+
+.copyrights {
+	width: 100%;
+	height: auto;
+	background-color: #ccc;
+	padding: 10px;
+}
+
+#star-wrapper {
+	margin-top: 100px;
+	margin-left: 300px;
+	font-size: 18px;
+}
+
+#star-body-form {
+	margin-top: 420px;
+}
+
+#star-userId {
+	font-size: 20px;
+	color: red;
+}
+
+#star-log-out {
+	margin-left: 1250px;
+	margin-top: 50px;
+	font-size: 15px;
+}
+
+#star-table {
+	margin-top: 150px;
+}
+
+#star-footer {
+	margin-top: 315px;
+}
+
+#star-dia {
+	text-align: center;
+}
+
+#star-spann-id1 {
+	color: red;
+}
+
+#star-spann-id2 {
+	color: green;
+}
+
+#testing {
+	background-color: #555858;
+	color: white;
+}
+
+.star-head {
+	color: blue;
+	font-size: 25px;
+}
+
+.thy-id1 {
+	color: orangered;
+	font-size: 15px;
+	margin-left: 30px;
+}
+
+.thy-id2 {
+	color: green;
+	font-size: 15px;
+	margin-left: 65px;
+}
+
+.thyme-data {
+	margin-top: 15px;
+}
+
+.load-pro {
+	margin-top: 80px;
+}
+
+.star-data {
+	margin-top: 15px;
+}
