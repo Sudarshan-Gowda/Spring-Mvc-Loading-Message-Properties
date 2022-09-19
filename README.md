@@ -16,12 +16,9 @@
  `Step 3`: To find key by using Java instead of using thymeleaf also covered in this repository. For detail description go through the                Controoler of this repository.
  
  `Step 4`: Once you maven imported the project, run through server(Ex; Wildfly) and hit the URL
-          (EX: http://localhost:8085/loading-message-properties-thymeleaf-spring/) to see the result.
+          (EX: http://localhost:8080/loading-message-properties-thymeleaf-spring/) to see the result.
  
- 
-   If you get any issues regarding this repository feel free to comment.
-   
-   Thank u guys have a good day.
+
    
    
    
